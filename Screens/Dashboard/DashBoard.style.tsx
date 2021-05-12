@@ -7,13 +7,14 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#a178b1',
-    paddingTop: Platform.OS === 'android' ? 30 : 0,
-    // marginLeft: Platform.OS === 'android' ? 30 : 0,
+    // paddingTop: Platform.OS === 'android' ? 30 : 0,
+    paddingTop: 30,
     alignItems: 'center',
   },
   entriesContainer: {
     display: 'flex',
     padding: 10,
+    paddingLeft: 35,
     justifyContent: 'center',
     alignItems: 'center',
     overflow: 'scroll',
