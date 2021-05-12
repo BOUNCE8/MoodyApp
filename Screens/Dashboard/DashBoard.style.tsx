@@ -8,7 +8,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#a178b1',
     paddingTop: Platform.OS === 'android' ? 30 : 0,
-    marginLeft: Platform.OS === 'android' ? 30 : 0,
+    // marginLeft: Platform.OS === 'android' ? 30 : 0,
     alignItems: 'center',
   },
   entriesContainer: {
