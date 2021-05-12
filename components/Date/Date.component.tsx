@@ -1,6 +1,6 @@
 import React from 'react';
 import { Text, View } from 'react-native';
-import styles from './Date.stye';
+import styles from './Date.style';
 
 const Date: React.FC<Record<string, never>> = () => {
   return (
