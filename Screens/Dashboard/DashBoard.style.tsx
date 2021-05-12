@@ -5,7 +5,7 @@ const width = Dimensions.get('window').width;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#a178b1',
+    // backgroundColor: '#a178b1',
     paddingTop: Platform.OS === 'android' ? 30 : 0,
     alignItems: 'center',
   },
