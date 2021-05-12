@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './SignUp.style';
 import { View, Text, TextInput } from 'react-native';
-import FormButton from '../../Components/FormButton/FormButton.screen';
+import FormButton from '../../components/FormButton/FormButton.screen';
 import { SignupProps } from '../../Interfaces';
 
 const SignUp: React.FC<SignupProps> = ({ navigation }) => {
