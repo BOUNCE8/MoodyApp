@@ -7,7 +7,7 @@ import {
   MoodType,
   Date,
   MoodPost,
-} from '../../components/index';
+} from '../../Components/index';
 import { loginConnector } from '../../Utilities/Login.utlilities';
 import { DashboardProps } from '../../Interfaces/';
 
