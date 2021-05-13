@@ -14,7 +14,7 @@ import { DashboardProps } from '../../Interfaces/';
 const moodyPosts = [
   { id: 1, date: '21/03/21', mood_text: 'happy', rating: 8, personal_note: '' },
   { id: 2, date: '22/04/21', mood_text: 'sad', rating: 2, personal_note: '' },
-  { id: 3, date: '30/004/21', mood_text: 'meh', rating: 5, personal_note: '' },
+  { id: 3, date: '30/04/21', mood_text: 'meh', rating: 5, personal_note: '' },
 ];
 
 const Dashboard: React.FC<DashboardProps> = ({ userName }) => {
