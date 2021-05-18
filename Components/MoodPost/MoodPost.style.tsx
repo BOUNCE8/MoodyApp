@@ -6,15 +6,50 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-evenly',
     alignItems: 'center',
-    width: '90%',
+    width: '95%',
     height: 90,
-    padding: 10,
+    // padding: 10,
     borderRadius: 10,
     backgroundColor: '#fefefe',
     marginVertical: 7.5,
   },
+  fieldTitle: {
+    fontSize: 11,
+    color: '#664C70',
+  },
+  fieldTitle: {
+    fontSize: 11,
+    color: '#664C70',
+  },
   item: {
     color: '#664C70',
+    fontSize: 24,
+  },
+  section1: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderTopLeftRadius: 10,
+    borderBottomLeftRadius: 3,
+    backgroundColor: '#c898db',
+    height: '100%',
+    flex: 1.5,
+  },
+  section2: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    // backgroundColor: 'yellow',
+    height: '100%',
+    flex: 2,
+  },
+  section3: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    // backgroundColor: 'blue',
+    height: '100%',
+    flex: 1.5,
   },
   buttonText: {
     textAlign: 'center',
@@ -22,6 +57,8 @@ const styles = StyleSheet.create({
   },
   recordContainer: {
     width: '100%',
+
+    // backgroundColor: 'green'
   },
   date_mood_int: {
     display: 'flex',
