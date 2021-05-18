@@ -38,7 +38,7 @@ const MoodPost: React.FC<MoodLog> = ({ item }) => {
         </View>
 
         <View style={styles.note_container}>
-          {/* <Text style={styles.item}>Note: {item.personal_note}</Text> */}
+          <Text style={styles.noteText}>Note: {item.personal_note}</Text>
         </View>
       </View>
     </View>
