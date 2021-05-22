@@ -28,7 +28,6 @@ const Login: React.FC<LoginProps> = ({ navigation, login }) => {
         />
       </View>
       <View style={styles.footer}>
-        <Text>Home/Log In Screen</Text>
         <View style={styles.inputContainer}>
           <TextInput
             style={styles.textInputStyle}
